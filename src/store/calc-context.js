@@ -14,7 +14,7 @@ export const CalcContextProvider = (props) => {
 	const [input, setInput] = useState('0')
 
 	const lastChar = input.slice(-1)
-	const conditions = ['/', '*', '+', '-']
+	const conditions = ['/', '*', '-', '+']
 
 	const addInput = (newInput) => {
 		input === '0'
