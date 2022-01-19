@@ -1,0 +1,10 @@
+.input {
+  width: 100vw;
+  max-width: 100%;
+  margin-top: 15px;
+  background-color: rgb(160, 160, 160);
+  height: 75px;
+  border-radius: 0.5em;
+  text-align: end;
+  font-size: xx-large;
+}
