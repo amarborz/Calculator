@@ -1,23 +1,13 @@
+h1 {
+  display: none;
+}
+
 .App {
-  text-align: center;
-  margin: auto;
-  margin-top: 15vh;
-  width: 30vw;
-  height: 80vh;
-  background-color: black;
-  color: white;
-  border: orange 5px solid;
-  border-radius: 30px;
-}
+  position: relative;
+  max-width: 650px;
+  border-radius: 45px;
 
-@media screen and (max-width: 992px) {
-  .App {
-    width: 60vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .App {
-    width: 90vw;
-  }
+  background: #d6e0e1;
+  box-shadow: 41px 41px 100px #a1a8a9,
+    -41px -41px 100px #ffffff;
 }
