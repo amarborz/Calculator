@@ -25,20 +25,13 @@ const Buttons = () => {
 		ctx.equals()
 	}
 
-	const toDecimalHandler = () => {
-		ctx.toDecimal()
-	}
-
 	return (
 		<div className={classes.grid}>
-			<button className={classes.spanLight} onClick={clearInputHandler}>
-				C
+			<button className={classes.spanLightLarge} onClick={clearInputHandler}>
+				Clear
 			</button>
 			<button className={classes.spanLight} onClick={removeLastInputHandler}>
 				⌫
-			</button>
-			<button className={classes.spanLight} onClick={toDecimalHandler}>
-				%
 			</button>
 			<button
 				className={classes.spanOrange}

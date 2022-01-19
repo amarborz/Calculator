@@ -11,7 +11,13 @@ const Input = () => {
 		<div>
 			<input
 				className={classes.input}
-				value={ctx.input}
+				value={
+					ctx.secondValue
+						? `${ctx.firstValue}${ctx.operator}${ctx.secondValue}`
+						: ctx.operator
+						? `${ctx.firstValue}${ctx.operator}`
+						: ctx.firstValue
+				}
 				onChange={inputChangeHandler}
 			/>
 		</div>

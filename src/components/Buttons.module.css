@@ -22,6 +22,12 @@ button {
   color: black;
 }
 
+.spanLightLarge {
+  background-color: rgb(160, 160, 160);
+  color: black;
+  grid-column: span 2;
+}
+
 .spanOrange {
   background-color: orange;
 }
